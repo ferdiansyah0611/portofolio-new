@@ -1,0 +1,92 @@
+@tailwind base
+@tailwind components
+@tailwind utilities
+@tailwind forms
+@tailwind apply
+
+::root
+	--bg-backdrop-dark: #00000070
+	--bg-backdrop-light: #ffffff70
+
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap')
+body
+	font-family: 'Ubuntu', sans-serif !important
+
+html
+	scroll-behavior: smooth
+
+.ml-300-
+	margin-left: -250px
+
+.w-300
+	width: 250px
+
+button:focus
+	outline: none
+
+@keyframes write
+	from
+		border-right: 3px solid white
+	
+	to
+		border-right: 3px solid black
+	
+
+.writer
+	border-right: 3px solid white
+	animation: write 0.3s infinite
+
+
+#opacity-menu
+	backdrop-filter: blur(16px) saturate(160%)
+	background-color: var(--bg-backdrop-light)
+
+#container-menu
+	@apply bg-white dark:bg-black h-screen fixed left-0 top-0 z-40 duration-500 shadow-xl z-50
+	/*margin-top: 4.45em*/
+
+#header-menu
+	@apply py-5 border-b dark:border-gray-400
+	h5
+		@apply font-bold ml-5 text-black dark:text-white
+
+
+#footer
+	@apply shadow dark:bg-black p-2 flex flex-wrap
+	background-color: #1e3a8a
+	.first
+		@apply flex justify-center md:justify-start w-full md:w-1/2
+	.second
+		@apply flex justify-center md:justify-end w-full md:w-1/2
+	.first > a
+		@apply p-3 hover:underline text-white cursor-pointer text-sm font-bold m-1 dark:text-white
+	.second > p
+		@apply p-3 text-white text-sm font-bold m-1 dark:text-white
+
+
+/*nav*/
+.nav-mobile
+	@apply shadow-md w-full top-0 left-0 fixed z-30 bg-white transition-all duration-500
+	backdrop-filter: blur(16px) saturate(160%)
+	&.off-scroll
+		@apply bg-white dark:bg-black
+	&.on-scroll
+		background-color: var(--bg-backdrop-light) !important
+
+.nav-desktop-link
+	@apply font-medium p-6 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-800 cursor-pointer
+
+.nav-mobile-link
+	@apply dark:text-white text-sm hover:bg-gray-100 dark:hover:bg-gray-700 font-medium p-4 w-full flex space-x-3
+
+@media (prefers-color-scheme: dark) 
+	.nav-mobile
+		@apply shadow-md w-full top-0 left-0 fixed z-30 bg-white transition-all duration-500
+		backdrop-filter: blur(16px) saturate(160%)
+		background-color: var(--bg-backdrop-dark)
+	
+	#opacity-menu
+		backdrop-filter: blur(16px) saturate(160%)
+		background-color: var(--bg-backdrop-dark)
+	

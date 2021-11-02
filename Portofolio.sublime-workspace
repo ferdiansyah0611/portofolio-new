@@ -1,0 +1,1527 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"off",
+				"offsetTop"
+			],
+			[
+				"bg-gr",
+				"bg-gray-100"
+			],
+			[
+				"clas",
+				"classList"
+			],
+			[
+				"bg-red-",
+				"bg-red-500"
+			],
+			[
+				"name",
+				"nameValidate"
+			],
+			[
+				"ope",
+				"openproject"
+			],
+			[
+				"se",
+				"setopenproject"
+			],
+			[
+				"use",
+				"useState"
+			],
+			[
+				"Tool",
+				"Toolbox"
+			],
+			[
+				"In",
+				"IntroductionHash"
+			],
+			[
+				"class",
+				"classList"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"pro",
+				"project"
+			],
+			[
+				"res",
+				"response"
+			],
+			[
+				"rese",
+				"resetmember"
+			],
+			[
+				"list",
+				"listchat"
+			],
+			[
+				"onCl",
+				"onClick"
+			],
+			[
+				"clear",
+				"clearcategory"
+			],
+			[
+				"star",
+				"startmarket"
+			],
+			[
+				"th",
+				"thumbnail"
+			],
+			[
+				"Lis",
+				"ListItemAvatar"
+			],
+			[
+				"top",
+				"marginTop1"
+			],
+			[
+				"sm",
+				"small"
+			],
+			[
+				"Li",
+				"ListItemText"
+			],
+			[
+				"mult",
+				"mutiline"
+			],
+			[
+				"dia",
+				"DialogActions"
+			],
+			[
+				"Dial",
+				"DialogContent"
+			],
+			[
+				"Dia",
+				"DialogTitle"
+			],
+			[
+				"flex",
+				"flexGrow"
+			],
+			[
+				"marg",
+				"marginTop"
+			],
+			[
+				"Butt",
+				"ButtonGroup"
+			],
+			[
+				"upda",
+				"updatemarket"
+			],
+			[
+				"add",
+				"addmarket"
+			],
+			[
+				"ondialogp",
+				"ondialogpostproduct"
+			],
+			[
+				"ondia",
+				"ondialogshowproduct"
+			],
+			[
+				"conta",
+				"container"
+			],
+			[
+				"pri",
+				"primary"
+			],
+			[
+				"But",
+				"Button"
+			],
+			[
+				"List",
+				"ListItem"
+			],
+			[
+				"sta",
+				"status"
+			],
+			[
+				"file_",
+				"file_upload_user"
+			],
+			[
+				"lis",
+				"listfile"
+			],
+			[
+				"ma",
+				"MARKETPLACE"
+			],
+			[
+				"full",
+				"fullScreen"
+			],
+			[
+				"dial",
+				"DialogActions"
+			],
+			[
+				"onC",
+				"onClick"
+			],
+			[
+				"open",
+				"openedmenu"
+			],
+			[
+				"ac",
+				"acnhormenu"
+			],
+			[
+				"r",
+				"rrr\tReducer"
+			],
+			[
+				"Menui",
+				"MenuItem"
+			],
+			[
+				"M",
+				"MenuIcon"
+			],
+			[
+				"setis",
+				"setislock"
+			],
+			[
+				"styl",
+				"style"
+			],
+			[
+				"Dark",
+				"DarkSelect"
+			],
+			[
+				"Da",
+				"DarkSelect"
+			],
+			[
+				"update",
+				"updatewalpaper"
+			],
+			[
+				"Bloc",
+				"BLOCK"
+			],
+			[
+				"deta",
+				"detailgroup"
+			],
+			[
+				"if",
+				"iframe"
+			],
+			[
+				"cosn",
+				"console"
+			],
+			[
+				"dar",
+				"darkTabs"
+			],
+			[
+				"color",
+				"colorWhite"
+			],
+			[
+				"Dialog",
+				"DialogTitle"
+			],
+			[
+				"with",
+				"withStyles"
+			],
+			[
+				"_",
+				"_photobot"
+			],
+			[
+				"phot",
+				"photoURL"
+			],
+			[
+				"bot",
+				"bot_id"
+			],
+			[
+				"_i",
+				"_id"
+			],
+			[
+				"grou",
+				"GROUP"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"push",
+				"PUSH_CHAT"
+			],
+			[
+				"cha",
+				"changepassword"
+			],
+			[
+				"con",
+				"contained"
+			],
+			[
+				"Men",
+				"MenuItem"
+			],
+			[
+				"cos",
+				"console"
+			],
+			[
+				"fg",
+				"FgGreen"
+			],
+			[
+				"user",
+				"userid"
+			],
+			[
+				"cls",
+				"closeaddgroup"
+			],
+			[
+				"L",
+				"ListItemText"
+			],
+			[
+				"ListI",
+				"ListItemIcon"
+			],
+			[
+				"dis",
+				"displayName"
+			],
+			[
+				"Con",
+				"ConvertTime"
+			],
+			[
+				"Un",
+				"UnarchiveIcon"
+			],
+			[
+				"Ic",
+				"SendIcon"
+			],
+			[
+				"contex",
+				"contexts"
+			],
+			[
+				"useE",
+				"useEffect"
+			],
+			[
+				"des",
+				"desktop"
+			],
+			[
+				"set",
+				"setUser"
+			],
+			[
+				"Co",
+				"Context"
+			],
+			[
+				"chat",
+				"chatlength"
+			],
+			[
+				"disp",
+				"dispatch"
+			],
+			[
+				"as",
+				"async"
+			],
+			[
+				"sea",
+				"search"
+			],
+			[
+				"info",
+				"infoProfile"
+			],
+			[
+				"Mem",
+				"MemberField"
+			],
+			[
+				"new",
+				"newAuth"
+			],
+			[
+				"Edi",
+				"EditIcon"
+			],
+			[
+				"useSt",
+				"useState"
+			],
+			[
+				"GET",
+				"GET_USER"
+			],
+			[
+				"Sa",
+				"SaveContact"
+			],
+			[
+				"Bac",
+				"BackPaper"
+			],
+			[
+				"ex",
+				"expired"
+			],
+			[
+				"Gri",
+				"GridListTile"
+			],
+			[
+				"dow",
+				"download_url"
+			],
+			[
+				"data",
+				"DATAIMAGE"
+			],
+			[
+				"gro",
+				"group"
+			],
+			[
+				"Di",
+				"Dialog"
+			],
+			[
+				"D",
+				"DialogContent"
+			],
+			[
+				"import",
+				"important"
+			],
+			[
+				"bloc",
+				"block_by"
+			],
+			[
+				"call",
+				"callback"
+			],
+			[
+				"er",
+				"error"
+			],
+			[
+				"err",
+				"errordescription"
+			],
+			[
+				"bac",
+				"backgroundColor"
+			],
+			[
+				"clase",
+				"classes"
+			],
+			[
+				"prop",
+				"props"
+			],
+			[
+				"react-",
+				"react-router-dom"
+			],
+			[
+				"conte",
+				"context"
+			],
+			[
+				"Conta",
+				"ContactSave"
+			],
+			[
+				"remo",
+				"removefile"
+			],
+			[
+				"ca",
+				"chat"
+			],
+			[
+				"val",
+				"value"
+			],
+			[
+				"contet",
+				"contexts"
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"Stor",
+				"STORY\talias"
+			],
+			[
+				"fal",
+				"false\tkeyword"
+			],
+			[
+				"ab",
+				"absolute"
+			],
+			[
+				"t",
+				"theme\tscript"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/pages/home.jsx",
+			"settings":
+			{
+				"buffer_size": 3477,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/component/WriterIntro.jsx",
+			"settings":
+			{
+				"buffer_size": 1244,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "tailwind.config.js",
+			"settings":
+			{
+				"buffer_size": 212,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/App.jsx",
+			"settings":
+			{
+				"buffer_size": 1209,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/component/hash/ProjectHash.jsx",
+			"settings":
+			{
+				"buffer_size": 4327,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/component/hash/AboutHash.jsx",
+			"settings":
+			{
+				"buffer_size": 1012,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/component/hash/CertificateHash.jsx",
+			"settings":
+			{
+				"buffer_size": 2002,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/component/hash/ContactHash.jsx",
+			"settings":
+			{
+				"buffer_size": 7709,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/component/hash/StudyHash.jsx",
+			"settings":
+			{
+				"buffer_size": 1986,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C Single File.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"e",
+				"Package Control: Enable Package"
+			],
+			[
+				"DI",
+				"Package Control: Disable Package"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"bab",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"htm",
+				"HTMLBeautify"
+			],
+			[
+				"html",
+				"HTMLBeautify"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"enab",
+				"Package Control: Enable Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"beau",
+				"HTMLBeautify"
+			],
+			[
+				"php",
+				"PHP Code Sniffer: Turn Execute On Save On"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"console",
+				"Snippet: consoleError"
+			],
+			[
+				"bea",
+				"Javascript Beautify"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ht",
+				"HTMLBeautify"
+			],
+			[
+				"phpbe",
+				"PHP Coding Standards Fixer: Fix this file (PHP Code Beautifier)"
+			],
+			[
+				"drop",
+				"Snippet: dropdown"
+			],
+			[
+				"dropd",
+				"Snippet: dropdown"
+			],
+			[
+				"dropdown",
+				"Snippet: dropdown"
+			],
+			[
+				"cons",
+				"Snippet: consoleWarn"
+			],
+			[
+				"javasc",
+				"Javascript Beautify"
+			],
+			[
+				"pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"",
+				"Bookmarks: Select All"
+			],
+			[
+				"Git",
+				"Git: Status"
+			],
+			[
+				"intall",
+				"Package Control: Install Package"
+			],
+			[
+				"modal",
+				"Snippet: modal"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"beaut",
+				"HTMLBeautify"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insra",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 124.0,
+		"history":
+		[
+			"print('Username\\t : \\t Ferdiansyah')",
+			"print(__name__)",
+			"print(__main__())",
+			"print(__main__)",
+			"exit()",
+			"print('a')",
+			"print 'a'",
+			"?",
+			"print('2')",
+			"?",
+			"exit()",
+			"exit",
+			"if 1 or 0: print('1')",
+			"if 1 > 0: print('1')",
+			"if 1 > 0:",
+			"if 1 > 0",
+			"if",
+			"import time",
+			"python",
+			"php"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/ferdi/project/portofolio",
+		"/C/Users/ferdi/project/portofolio/src",
+		"/C/Users/ferdi/project/portofolio/src/component",
+		"/C/Users/ferdi/project/portofolio/src/component/hash",
+		"/C/Users/ferdi/project/portofolio/src/resource",
+		"/C/Users/ferdi/project/portofolio/src/resource/languange"
+	],
+	"file_history":
+	[
+		"/C/Users/ferdi/project/portofolio/src/component/hash/ContactHash.jsx",
+		"/C/Users/ferdi/project/portofolio/src/component/HeadingMenu.jsx",
+		"/C/Users/ferdi/project/portofolio/src/App.sass",
+		"/C/Users/ferdi/project/portofolio/src/resource/languange/id.jsx",
+		"/C/Users/ferdi/project/portofolio/src/resource/languange/en.jsx",
+		"/C/Users/ferdi/project/portofolio/deploy.sh",
+		"/C/Users/ferdi/project/portofolio/src/component/hash/StudyHash.jsx",
+		"/C/Users/ferdi/project/portofolio/src/main.jsx",
+		"/C/Users/ferdi/project/portofolio/index.html",
+		"/C/Users/ferdi/project/portofolio/src/component/hash/IntroductionHash.jsx",
+		"/C/Users/ferdi/project/portofolio/src/component/hash/index.jsx",
+		"/C/Users/ferdi/project/portofolio/node_modules/vite/dist/node/chunks/dep-85dbaaa7.js",
+		"/C/Users/ferdi/project/portofolio/src/component/hash/ProjectHash.jsx",
+		"/C/Users/ferdi/project/portofolio/src/context/project.js",
+		"/C/Users/ferdi/project/portofolio/src/component/hash/CertificateHash.jsx",
+		"/C/Users/ferdi/project/portofolio/src/component/hash/AboutHash.jsx",
+		"/C/Users/ferdi/project/portofolio/src/App.css",
+		"/C/Users/ferdi/project/portofolio/src/component/DialogLanguange.jsx",
+		"/C/Users/ferdi/project/portofolio/src/component/StudyHash.jsx",
+		"/C/Users/ferdi/project/portofolio/src/component/ProjectHash.jsx",
+		"/C/Users/ferdi/project/portofolio/src/component/AboutHash.jsx",
+		"/C/Users/ferdi/project/portofolio/src/component/Footer.jsx",
+		"/C/Users/ferdi/project/portofolio/src/component/IntroductionHash.jsx",
+		"/C/Users/ferdi/project/portofolio/src/component/CertificateHash.jsx",
+		"/C/Users/ferdi/project/portofolio/src/component/WriterIntro.jsx",
+		"/C/Users/ferdi/project/portofolio/src/App.jsx",
+		"/C/Users/ferdi/project/portofolio/tailwind.config.js",
+		"/C/Users/ferdi/project/portofolio/postcss.config.js",
+		"/C/Users/ferdi/project/portofolio/package.json",
+		"/C/Users/ferdi/project/portofolio/src/context/index.jsx",
+		"/C/Users/ferdi/project/portofolio/src/resource/languange/index.jsx",
+		"/C/laragon/www/tech-messenger/src/component/Card/PeopleV2.jsx",
+		"/C/laragon/www/tech-messenger/src/component/Card/UserV2.jsx",
+		"/C/laragon/www/tech-messenger/package.json",
+		"/C/laragon/www/tech-messenger/src/component/DarkTextField.jsx",
+		"/C/laragon/www/tech-messenger/src/component/Dialog/Marketplace.jsx",
+		"/C/laragon/www/tech-messenger/src/page/chat/Chat.jsx",
+		"/C/laragon/www/tech-messenger/src/component/Dialog/JoinGroup.jsx",
+		"/C/laragon/www/tech-messenger/src/component/Profile.jsx",
+		"/C/laragon/www/tech-messenger/src/component/Dialog/Upload.jsx",
+		"/C/laragon/www/tech-messenger/src/action/_management/group.js",
+		"/C/laragon/www/tech-messenger/src/action/_management/chat.js",
+		"/C/laragon/www/tech-messenger/src/action/_management/bot.js",
+		"/C/laragon/www/tech-messenger/src/component/Dialog/AddToGroup.jsx",
+		"/C/laragon/www/tech-messenger/src/action/_fire/marketplace.js",
+		"/C/laragon/www/tech-messenger/src/page/Desktop.jsx",
+		"/C/laragon/www/tech-messenger/src/component/Tab/TabsChat.jsx",
+		"/C/laragon/www/tech-messenger/src/resource/lang-en.js",
+		"/C/laragon/www/tech-messenger/src/resource/lang-id.js",
+		"/C/laragon/www/tech-messenger/src/component/Dialog/NewChat.jsx",
+		"/C/laragon/www/tech-messenger/src/action/fire.js",
+		"/C/laragon/www/tech-messenger/src/action/uploaded-user.js",
+		"/C/laragon/www/tech-messenger/src/component/ConvertTime.jsx",
+		"/C/laragon/www/tech-messenger/src/action/SendFile.js",
+		"/C/laragon/www/tech-messenger/src/component/Navbar.jsx",
+		"/C/laragon/www/tech-messenger/src/action/_fire/category.js",
+		"/C/laragon/www/tech-messenger/src/action/management.js",
+		"/C/laragon/www/tech-messenger/src/action/_management/system.js",
+		"/C/laragon/www/tech-messenger/src/page/reply/Index.jsx",
+		"/C/laragon/www/tech-messenger/src/page/setting/Theme.jsx",
+		"/C/laragon/www/tech-messenger/src/page/setting/Index.jsx",
+		"/C/laragon/www/tech-messenger/.gitignore",
+		"/C/laragon/www/tech-messenger/src/page/Index.jsx",
+		"/C/laragon/www/tech-messenger/src/page/setting/Languange.jsx",
+		"/C/laragon/www/tech-messenger/src/page/setting/Storage.jsx",
+		"/C/laragon/www/tech-messenger/src/page/setting/Account.jsx",
+		"/C/laragon/www/tech-messenger/src/page/setting/Security.jsx",
+		"/C/laragon/www/tech-messenger/src/component/Dialog/Lockscreen.jsx",
+		"/C/laragon/www/tech-messenger/src/component/Speedial.jsx",
+		"/C/laragon/www/tech-messenger/src/component/Tab/TabsGroup.jsx",
+		"/C/laragon/www/tech-messenger/src/page/Desktop.module.sass",
+		"/C/laragon/www/tech-messenger/src/Router.jsx",
+		"/C/laragon/www/tech-messenger/src/page/group/Chat.jsx",
+		"/C/laragon/www/tech-messenger/src/page/UpgradeAccounts.jsx",
+		"/C/laragon/www/tech-messenger/src/component/Tab/ListStory.jsx",
+		"/C/laragon/www/tech-messenger/src/component/Tab/TabsStory.jsx",
+		"/C/laragon/www/tech-messenger/src/component/Dialog/Introduction.jsx",
+		"/C/laragon/www/tech-messenger/src/page/auth/Register.jsx",
+		"/C/laragon/www/tech-messenger/src/page/group/Create.jsx",
+		"/C/laragon/www/tech-messenger/index.html",
+		"/C/laragon/www/tech-messenger/src/component/NavbarChat.jsx",
+		"/C/laragon/www/tech-messenger/src/page/Landing.jsx",
+		"/C/laragon/www/tech-messenger/src/page/contact/Index.jsx",
+		"/C/laragon/www/tech-messenger/src/component/Dialog/BlockUser.jsx",
+		"/C/laragon/www/tech-messenger/vite.config.js",
+		"/C/laragon/www/tech-messenger/src/page/History.jsx",
+		"/C/laragon/www/tech-messenger/.env",
+		"/C/laragon/www/tech-messenger/src/component/Dialog/EditGroup.jsx",
+		"/C/laragon/www/tech-messenger/src/resource/DarkTextField.jsx",
+		"/C/laragon/www/tech-messenger/src/component/Tab/TabPanel.jsx",
+		"/C/laragon/www/tech-messenger/src/component/LinkMatch.jsx",
+		"/C/laragon/www/tech-messenger/src/component/Dialog/GroupBotList.jsx",
+		"/C/laragon/www/tech-messenger/src/action/_management/history.js",
+		"/C/laragon/www/tech-messenger/src/App.jsx",
+		"/C/laragon/www/tech-messenger/src/VideoCall.jsx",
+		"/C/laragon/www/tech-messenger/src/component/Dialog/CreateBot.jsx",
+		"/C/laragon/www/tech-messenger/src/page/join/Group.jsx",
+		"/C/laragon/www/tech-messenger/src/page/auth/Login.jsx",
+		"/C/laragon/www/tech-messenger-backend/src/index.js",
+		"/C/laragon/www/tech-messenger/src/page/PublicChat.jsx",
+		"/C/laragon/www/tech-messenger-backend/package.json",
+		"/C/laragon/www/tech-messenger-backend/public/script.js",
+		"/C/laragon/www/tech-messenger-backend/.gitignore",
+		"/C/laragon/www/tech-messenger/src/component/Walpaper.jsx",
+		"/C/laragon/www/tech-messenger-admin/app.js",
+		"/C/laragon/www/tech-messenger/src/action/fb.js",
+		"/C/Users/ferdi/Downloads/coinbase-commerce-2fa-backup-codes.txt",
+		"/C/laragon/www/tech-messenger/src/component/Dialog/AddToGroup.js",
+		"/C/laragon/www/tech-messenger/src/page/Landing.sass",
+		"/C/laragon/www/tech-messenger/src/resource/emoji.jsx",
+		"/C/laragon/www/tech-messenger/src/actions/mediaplayer.js",
+		"/C/laragon/www/tech-messenger/src/reducers/mediaplayer.js",
+		"/C/laragon/www/tech-messenger-admin/package.json",
+		"/C/laragon/www/tech-messenger/src/reducers/index.js",
+		"/C/laragon/www/tech-messenger/src/action/_management/contact.js",
+		"/C/laragon/www/tech-messenger/src/component/Dialog/SaveContact.jsx",
+		"/C/laragon/www/tech-messenger/src/action/_management/story.js",
+		"/C/laragon/www/tech-messenger/src/resource/subscription.jsx",
+		"/C/laragon/www/tech-messenger/src/resource/storage-limit.js",
+		"/C/laragon/www/tech-messenger/src/component/VideoCall.jsx",
+		"/C/laragon/www/tech-messenger/src/page/join/index.js",
+		"/C/laragon/www/tech-messenger/src/action/uploaded.js",
+		"/C/laragon/www/tech-messenger/src/page/Payment.jsx",
+		"/C/laragon/www/tech-messenger/node_modules/react-coinbase-commerce/package.json",
+		"/C/laragon/www/tech-messenger/src/page/auth/ResetPassword.jsx",
+		"/C/laragon/www/tech-messenger/src/component/Dialog/MuteTime.jsx",
+		"/C/laragon/www/tech-messenger/src/component/Dialog/ClearChat.jsx",
+		"/C/laragon/www/tech-messenger/src/component/Dialog/BlockedUser.jsx"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Button",
+			".nav-mobile.",
+			"#footer ",
+			"}",
+			"{",
+			";",
+			"red",
+			"bg",
+			"uired=\"\"",
+			"Hihaaaaaaaaaaaaaaaaaaaaaaaaaaaaaihi",
+			"Cancel",
+			"classes",
+			"Tooltip",
+			"StudyHash",
+			"navRef.current",
+			"statusMenu",
+			"responded",
+			"']",
+			"]",
+			"data",
+			"ToolBox",
+			"Toolbox",
+			"blue",
+			"Tooltip",
+			"ButtonGroup",
+			"Select",
+			"DialogActions",
+			"Select",
+			"MenuItem",
+			"Typography",
+			"DialogContent",
+			"scroll",
+			"Scroll",
+			"scroll",
+			"Scroll",
+			"scroll",
+			"Scroll",
+			"scroll",
+			"Scroll",
+			"scroll",
+			"Scroll",
+			"scroll",
+			"Scroll",
+			"Footer",
+			"ash",
+			"AboutHash",
+			"classes",
+			"style",
+			"Style",
+			"style",
+			"Tooltip",
+			"btncontact",
+			"200",
+			"setopenDialogLanguange",
+			"statusMenu",
+			"HomeIcon",
+			"mt",
+			"scoll",
+			"document.querySelector('nav')",
+			"nav",
+			"project.",
+			"moreproject",
+			"tailwindcss",
+			"project",
+			"TimelineDot",
+			"<Image",
+			"Image",
+			"fragment",
+			"href",
+			"ctx",
+			"ref(",
+			"Ref",
+			"ref",
+			"effect(",
+			"state(",
+			"state",
+			"MenuIcon",
+			"TranslateIcon",
+			"RefreshIcon",
+			"XIcon",
+			"MenuIconO",
+			"@material-ui/core/style",
+			";",
+			"\";",
+			"lab",
+			"MenuIconO",
+			"HomeIconO",
+			"School",
+			"TranslateIcon",
+			"AcademicCapIcon",
+			"RefreshIcon",
+			"XIcon",
+			"RssIconO",
+			"DocumentTextIconO",
+			"CollectionIconO",
+			"UserCircleIconO",
+			"MenuIconO",
+			"HomeIconO",
+			"LibraryBooks",
+			"MenuIconO",
+			"CollectionIconO",
+			"UserIcon",
+			"UserIconO"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/pages/home.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3477,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1782,
+								1782
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 572.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/component/WriterIntro.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1244,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1078,
+								1078
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 123.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "tailwind.config.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 212,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								188,
+								188
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/App.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1209,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								722,
+								722
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 4,
+					"file": "src/component/hash/ProjectHash.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4327,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3859,
+								3859
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 713.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/component/hash/AboutHash.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1012,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								203,
+								203
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/component/hash/CertificateHash.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2002,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1058,
+								1058
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/component/hash/ContactHash.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7709,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3174,
+								3174
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1196.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/component/hash/StudyHash.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1986,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1362,
+								1362
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 43.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.481081081081,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SFTP":
+	{
+		"height": 228.0
+	},
+	"output.Terminus":
+	{
+		"height": 83.0
+	},
+	"output.Terminus 2":
+	{
+		"height": 211.0
+	},
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 128.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 92.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"output.nodejs":
+	{
+		"height": 97.0
+	},
+	"pinned_build_system": "Packages/Python 3/Python3.sublime-build",
+	"project": "Portofolio.sublime-project",
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\laragon\\www\\tech-messenger\\sublime.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 256.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}
