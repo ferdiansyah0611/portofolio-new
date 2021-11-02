@@ -538,15 +538,6 @@
 			}
 		},
 		{
-			"file": "tailwind.config.js",
-			"settings":
-			{
-				"buffer_size": 212,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "src/App.jsx",
 			"settings":
 			{
@@ -850,6 +841,7 @@
 	],
 	"file_history":
 	[
+		"/C/Users/ferdi/project/portofolio/tailwind.config.js",
 		"/C/Users/ferdi/project/portofolio/src/component/hash/ContactHash.jsx",
 		"/C/Users/ferdi/project/portofolio/src/component/HeadingMenu.jsx",
 		"/C/Users/ferdi/project/portofolio/src/App.sass",
@@ -876,7 +868,6 @@
 		"/C/Users/ferdi/project/portofolio/src/component/CertificateHash.jsx",
 		"/C/Users/ferdi/project/portofolio/src/component/WriterIntro.jsx",
 		"/C/Users/ferdi/project/portofolio/src/App.jsx",
-		"/C/Users/ferdi/project/portofolio/tailwind.config.js",
 		"/C/Users/ferdi/project/portofolio/postcss.config.js",
 		"/C/Users/ferdi/project/portofolio/package.json",
 		"/C/Users/ferdi/project/portofolio/src/context/index.jsx",
@@ -1116,7 +1107,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -1146,7 +1137,7 @@
 						"translation.y": 572.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
@@ -1176,41 +1167,11 @@
 						"translation.y": 123.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "tailwind.config.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 212,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								188,
-								188
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
 					"file": "src/App.jsx",
 					"semi_transient": false,
 					"settings":
@@ -1236,7 +1197,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 7,
 					"type": "text"
 				}
 			]
@@ -1246,7 +1207,7 @@
 			"sheets":
 			[
 				{
-					"buffer": 4,
+					"buffer": 3,
 					"file": "src/component/hash/ProjectHash.jsx",
 					"semi_transient": false,
 					"settings":
@@ -1272,11 +1233,11 @@
 						"translation.y": 713.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 4,
 					"file": "src/component/hash/AboutHash.jsx",
 					"semi_transient": false,
 					"settings":
@@ -1306,7 +1267,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 5,
 					"file": "src/component/hash/CertificateHash.jsx",
 					"semi_transient": false,
 					"settings":
@@ -1336,7 +1297,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 6,
 					"file": "src/component/hash/ContactHash.jsx",
 					"semi_transient": false,
 					"settings":
@@ -1366,7 +1327,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 7,
 					"file": "src/component/hash/StudyHash.jsx",
 					"semi_transient": false,
 					"settings":
@@ -1510,7 +1471,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},

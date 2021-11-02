@@ -67,13 +67,13 @@ const id = (text) => {
       return "Keahlian"
       break
     case "Projek Saya":
-      return "Projek Saya"
+      return "Projek"
       break
     case "Sertifikat Saya":
-      return "Sertifikat Saya"
+      return "Sertifikat"
       break
     case "Kontak Saya":
-      return "Kontak Saya"
+      return "Kontak"
       break
     case "Pendidikan":
       return "Pendidikan"

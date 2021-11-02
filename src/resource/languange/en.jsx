@@ -67,13 +67,13 @@ const en = (text) => {
 	    	return "Experience"
 	    	break
 	    case "Projek Saya":
-	    	return "Project Me"
+	    	return "Project"
 	    	break
 	    case "Sertifikat Saya":
-	    	return "Certificate Me"
+	    	return "Certificate"
 	    	break
 	    case "Kontak Saya":
-	    	return "Contact Me"
+	    	return "Contact"
 	    	break
 	    case "Pendidikan":
     		return "Study"

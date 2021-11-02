@@ -8,7 +8,8 @@ const project = [
     description: {
       en: 'Tech Messenger is a web chat application with several features such as Personal Chat, Group Chat, Video Call, Story, Contact, and Marketplace. Built using React.js, Material UI, TailwindCSS, Express.js, Socket IO, and Firebase.',
       id: 'Tech Messenger adalah web apps chatting dengan memiliki beberapa fitur seperti Personal Chat, Group Chat, Video Call, Story, Contact, dan Marketplace. Dibuat menggunakan React.js, Material UI, TailwindCSS, Express.js, Socket IO, dan Firebase.'
-    }
+    },
+    private: true
   },
   {
     name: 'Spotify Clone',

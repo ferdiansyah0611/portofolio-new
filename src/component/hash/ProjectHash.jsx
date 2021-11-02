@@ -56,7 +56,7 @@ const ProjectHash = ({lang, project}) => {
               <a
                 onClick={() => openproject.github !== '#' ? window.open(openproject.github): false}
                 className="font-bold cursor-pointer text-sm bg-black text-white block p-3 shadow-md text-center mt-3"
-              >View On Github</a>
+              >View On Github {openproject.private ? "(Private)": false}</a>
             </Tooltip>
             <Tooltip title={"Go " + openproject.web}>
               <a
