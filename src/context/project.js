@@ -102,14 +102,14 @@ Untuk frontend dibuat dengan template dari Xoric (Bootstrap) diconvert ke Vue.js
     }
   },
   {
-    name: 'Todo Django',
-    img: '/todo-django-img.png',
-    github: 'https://github.com/ferdiansyah0611/todo-django',
+    name: 'Note Django',
+    img: '/note-django-img.png',
+    github: 'https://github.com/ferdiansyah0611/note-django',
     web: 'https://ferdiansyah.pythonanywhere.com',
     des: ['Django', 'Daisy UI'],
     description: {
-      en: 'Todo Django is a useful website for creating a To-do. Built using Django, Sqlite, and Daisy UI.',
-      id: 'Todo Django adalah website yang berguna untuk membuat sebuah To-do. Dibuat menggunakan Django, Sqlite, dan Daisy UI.'
+      en: 'Note Django is a useful website for creating a note. Built using Django, Sqlite, and Daisy UI.',
+      id: 'Note Django adalah website yang berguna untuk membuat sebuah catatan. Dibuat menggunakan Django, Sqlite, dan Daisy UI.'
     }
   }
 ]
