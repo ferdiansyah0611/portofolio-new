@@ -44,7 +44,7 @@ const id = (text) => {
         },
         {
           text: 'Blog',
-          link: 'https://blog-0611.herokuapp.com',
+          link: 'https://ferdiansyah-blog.herokuapp.com',
           icon: <RssFeed className="h-6"/>
         }
       ]
@@ -81,7 +81,7 @@ const id = (text) => {
     case "list-keahlian":
       return[
         'Mampu menggunakan HTML, CSS, SASS, Javascript, dan Typescript.',
-        'Dapat menggunakan perpustakaan javascript dan css dengan baik. Seperti React Js, Vue Js, Material UI, Tailwind CSS, Firebase, dan Next JS.',
+        'Dapat menggunakan perpustakaan javascript dan css dengan baik. Seperti React Js, Vue Js, Material UI, Tailwind CSS, Firebase, Express Js, Sequelize, dan Next JS.',
         'Memahami sql dan nosql dengan baik.',
         'Mampu bekerjasama dengan tim dan mampu mengintregasikan API'
       ]

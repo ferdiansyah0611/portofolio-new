@@ -44,7 +44,7 @@ const en = (text) => {
 				},
 				{
 					text: 'Blog',
-					link: 'https://blog-0611.herokuapp.com',
+					link: 'https://ferdiansyah-blog.herokuapp.com',
 					icon: <RssFeed className="h-6"/>
 				}
 			]
@@ -81,7 +81,7 @@ const en = (text) => {
 	    case "list-keahlian":
 	    	return[
 	        'Able to use HTML, CSS, SASS, Javascript, and Typescript.',
-	        'Can use javascript and css libraries well. Such as React Js, Vue Js, Material UI, Tailwind CSS, Firebase, and Next JS.',
+	        'Can use javascript and css libraries well. Such as React Js, Vue Js, Material UI, Tailwind CSS, Firebase, Express Js, Sequelize, and Next JS.',
 	        'Good understanding of sql and nosql.',
 	        'Able to work with a team and able to integrate API'
 	      ]

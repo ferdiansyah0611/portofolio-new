@@ -34,6 +34,7 @@ function Home({ctx}) {
   // gsap
   const btncontact = useRef(null)
   var navRef = useRef(null)
+  var projectRef = React.useRef(null)
   useEffect(() => {
     // gsap
     gsap.from(btncontact.current, {
@@ -113,11 +114,11 @@ function Home({ctx}) {
   return (
     <div>
       <HeadingMenu lang={lang} changeHash={changeHash} navRef={navRef} handlemenu={handlemenu} statusMenu={statusMenu} setlang={setlang} />
-      <div id="body" className="lg:p-12 z-10 bg-gray-100 dark:bg-gray-700 flex flex-wrap">
-        <IntroductionHash lang={lang} btncontact={btncontact}/>
+      <div id="body">
+        <IntroductionHash projectRef={projectRef} lang={lang} btncontact={btncontact}/>
         <AboutHash lang={lang} />
         <StudyHash lang={lang} />
-        <ProjectHash lang={lang} project={ctx.project} />
+        <ProjectHash lang={lang} project={ctx.project} projectRef={projectRef} />
         <CertificateHash lang={lang} />
         <ContactHash lang={lang} />
       </div>

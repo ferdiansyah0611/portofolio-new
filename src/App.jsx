@@ -11,7 +11,7 @@ import Context from './context'
 var theme = createTheme({
   palette: {
     primary: {
-      main: '#1e3a8a'
+      main: '#2563eb'
     },
     secondary: {
       main: red[500]
@@ -20,7 +20,8 @@ var theme = createTheme({
       main: blue[600]
     },
     green: {
-      main: green[500]
+      main: green[500],
+      contrastText: 'white'
     },
   }
 })

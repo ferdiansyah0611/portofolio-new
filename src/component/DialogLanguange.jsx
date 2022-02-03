@@ -7,18 +7,16 @@ import {
 function DialogLanguange(props){
   const {lang, change, open, close} = props
   return(
-    <Dialog fullWidth maxWidth="sm" open={open}>
-      <DialogTitle>
-        <Typography variant="h5">Switch Languange</Typography>
-      </DialogTitle>
+    <Dialog fullWidth maxWidth="xs" open={open}>
+      <DialogTitle>Switch Languange</DialogTitle>
       <DialogContent>
-        <Select fullWidth value={lang} onChange={change}>
+        <Select size="small" fullWidth value={lang} onChange={change}>
           <MenuItem value="id">Indonesia</MenuItem>
           <MenuItem value="en">English</MenuItem>
         </Select>
       </DialogContent>
       <DialogActions>
-        <Button onClick={close} color="secondary">Close</Button>
+        <Button size="small" onClick={close} color="secondary">Close</Button>
       </DialogActions>
     </Dialog>
   )
