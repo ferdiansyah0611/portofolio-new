@@ -24,14 +24,14 @@ const project = [
     private: true
   },
   {
-    name: 'Spotify Clone',
-    img: '/spotify-clone-img.png',
-    github: 'https://github.com/ferdiansyah0611/clone-spotify',
-    web: 'http://clone-spotify-lac.vercel.app',
-    des: ['React Js', 'Tailwind CSS', 'Spotify API'],
+    name: 'Stackoverflow Clone',
+    img: '/stackoverflow-clone-img.png',
+    github: 'https://github.com/ferdiansyah0611/stuckoverflow',
+    web: '',
+    des: ['React Js', 'Sass', 'Tailwind CSS', 'Express Js', 'Mongodb (Mongoose)'],
     description: {
-      en: 'Spotify Clone is a website designed as closely as possible to the Spotify site.',
-      id: 'Spotify Clone adalah web yang didesain semirip mungkin dengan situs Spotify.'
+      en: 'Stackoverflow clone is simple question & answer feature and with customize ui like a stackoverflow.',
+      id: 'Stackoverflow clone adalah fitur tanya jawab sederhana dan dengan menyesuaikan ui seperti stackoverflow.'
     }
   },
   {
@@ -54,6 +54,17 @@ const project = [
     description: {
       en: `The School Information System is a website that is useful for managing school-based data such as student data, teachers, classes, subjects, schools and can import/export excel data.`,
       id: `System Information School adalah website yang berguna untuk management data-data berdasarkan sekolah seperti data pelajar, guru, kelas, mata pelajaran, sekolah dan dapat import/export data excel.`
+    }
+  },
+  {
+    name: 'Spotify Clone',
+    img: '/spotify-clone-img.png',
+    github: 'https://github.com/ferdiansyah0611/clone-spotify',
+    web: 'http://clone-spotify-lac.vercel.app',
+    des: ['React Js', 'Tailwind CSS', 'Spotify API'],
+    description: {
+      en: 'Spotify Clone is a website designed as closely as possible to the Spotify site.',
+      id: 'Spotify Clone adalah web yang didesain semirip mungkin dengan situs Spotify.'
     }
   },
   {
@@ -111,17 +122,6 @@ const project = [
       id: 'Sebuah situs landing page.'
     }
   },
-  {
-    name: 'Stackoverflow Clone',
-    img: '/stackoverflow-clone-img.png',
-    github: 'https://github.com/ferdiansyah0611/stackoverflow-clone',
-    web: 'https://stackoverflow-clone-rho.vercel.app',
-    des: ['React Js', 'Sass', 'Tailwind CSS'],
-    description: {
-      en: 'Stackoverflow clone with customize ui.',
-      id: 'Stackoverflow clone dengan kustom ui.'
-    }
-  }
   // {
   //   name: 'Note Django',
   //   img: '/note-django-img.png',
