@@ -26,13 +26,25 @@ const project = [
   {
     name: 'Stackoverflow Clone',
     img: '/stackoverflow-clone-img.png',
-    github: 'https://github.com/ferdiansyah0611/stuckoverflow',
-    web: '',
+    gitlab: 'https://gitlab.com/stuckoverflow',
+    web: 'https://stuckoverflow-fe.vercel.app',
     des: ['React Js', 'Sass', 'Tailwind CSS', 'Express Js', 'Mongodb (Mongoose)'],
     description: {
       en: 'Stackoverflow clone is simple question & answer feature and with customize ui like a stackoverflow.',
       id: 'Stackoverflow clone adalah fitur tanya jawab sederhana dan dengan menyesuaikan ui seperti stackoverflow.'
     }
+  },
+  {
+    name: 'Relationship Web',
+    img: '/relationship-web-img.png',
+    github: '',
+    web: 'https://ferdisafina.web.app',
+    des: ['React Js', 'Sass', 'Tailwind CSS'],
+    description: {
+      en: 'A site about a relationship with lovers.',
+      id: 'Sebuah situs tentang suatu hubungan dengan pasangan kekasih.'
+    },
+    private: true
   },
   {
     name: 'Ferdiansyah Blog',
@@ -43,7 +55,8 @@ const project = [
     description: {
       en: 'Ferdiansyah Blog is a website for creating blog content and providing an API to access the API with a registered url.',
       id: 'Ferdiansyah Blog adalah web untuk membuat konten blog dan menyediakan API untuk mengakses API dengan url yang sudah registrasi.'
-    }
+    },
+    private: true
   },
   {
     name: 'System Information School',
@@ -76,7 +89,8 @@ const project = [
     description: {
       en: 'Multi User Blog is a website with a feature to create a blog for all registered users.',
       id: 'Blog Multi User adalah website dengan fitur membuat sebuah blog untuk semua pengguna yang telah registrasi.'
-    }
+    },
+    private: true
   },
   {
     name: 'Windows Clone',
@@ -122,6 +136,17 @@ const project = [
       id: 'Sebuah situs landing page.'
     }
   },
+  {
+    name: 'Note Vue',
+    img: '/note-vue-img.png',
+    github: 'https://github.com/ferdiansyah0611/note-vue',
+    web: 'http://note-vue-iota.vercel.app',
+    des: ['Vue Js', 'Sass'],
+    description: {
+      en: 'Note web using Vue',
+      id: 'Web note menggunakan Vue'
+    }
+  }
   // {
   //   name: 'Note Django',
   //   img: '/note-django-img.png',

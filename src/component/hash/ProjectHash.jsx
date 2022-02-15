@@ -64,9 +64,9 @@ const ProjectHash = ({lang, project, projectRef}) => {
             <Typography sx={{mt: 2}} variant="h6" paragraph>Description</Typography>
             <Typography variant="p" paragraph>{openproject.data.description[lang]}</Typography>
             <Typography variant="h6" paragraph>Link & Repository</Typography>
-            <Tooltip title={"Go " + openproject.data.github} placement="top">
-              <Button size="small" variant="contained" onClick={() => openproject.data.github !== '#' ? window.open(openproject.data.github): false}>
-                Github {openproject.data.private ? "(Private)": false}
+            <Tooltip title={"Go " + (openproject.data.gitlab ? openproject.data.gitlab : openproject.data.github)} placement="top">
+              <Button size="small" variant="contained" onClick={() => (openproject.data.gitlab ? openproject.data.gitlab : openproject.data.github) !== '#' ? window.open(openproject.data.gitlab ? openproject.data.gitlab : openproject.data.github): false}>
+                {openproject.data.gitlab ? 'Gitlab':'Github'} {openproject.data.private ? "(Private)": false}
               </Button>
             </Tooltip>
             <Tooltip title={"Go " + openproject.data.web}>
