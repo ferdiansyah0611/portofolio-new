@@ -10,8 +10,6 @@ import {
   Button
 } from '@mui/material'
 
-import { gsap } from "gsap"
-
 import WriterIntro from '../component/WriterIntro'
 
 import languange from '../resource/languange'
@@ -22,7 +20,8 @@ import {
   IntroductionHash,
   ProjectHash,
   StudyHash,
-  ContactHash
+  ContactHash,
+  FigmaHash
 } from '../component/hash'
 import Footer from '../component/Footer'
 import HeadingMenu from '../component/HeadingMenu'
@@ -36,13 +35,7 @@ function Home({ctx}) {
   var navRef = useRef(null)
   var projectRef = React.useRef(null)
   useEffect(() => {
-    // gsap
-    gsap.from(btncontact.current, {
-      duration: 2.5,
-      ease: "bounce.out",
-      x: 100
-    });
-    // scroll nav animation
+    AOS.init()
     let lastScroll = 0,
     scrollFunc = (e) => {
       if(!statusMenu){
@@ -119,6 +112,7 @@ function Home({ctx}) {
         <AboutHash lang={lang} />
         <StudyHash lang={lang} />
         <ProjectHash lang={lang} project={ctx.project} projectRef={projectRef} />
+        <FigmaHash lang={lang}/>
         <CertificateHash lang={lang} />
         <ContactHash lang={lang} />
       </div>

@@ -1,5 +1,6 @@
 var config = {
   purge: ['./**/*.jsx', './**/**/*.jsx'],
+  mode: 'jit',
   darkMode: 'class', // or 'media' or 'class'
   theme: {
     extend: {},

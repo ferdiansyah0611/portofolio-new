@@ -6,8 +6,6 @@ import WriterIntro from '../WriterIntro'
 import devsvg from '../../media/dev.svg'
 
 const IntroductionHash = ({lang, btncontact, projectRef}) => {
-  const [cv, setcv] = useState('/ferdiansyah-cv.pdf')
-
   return(
     <section className="w-full">
       <Box id="container-img" sx={{

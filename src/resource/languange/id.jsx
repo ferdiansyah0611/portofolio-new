@@ -81,14 +81,17 @@ const id = (text) => {
     case "list-keahlian":
       return[
         'Mampu menggunakan HTML, CSS, SASS, Javascript, dan Typescript.',
-        'Dapat menggunakan perpustakaan javascript dan css dengan baik. Seperti React Js, Vue Js, Material UI, Tailwind CSS, Firebase, Express Js, Sequelize, dan Next JS.',
+        'Dapat menggunakan perpustakaan javascript dan css dengan baik. Seperti React Js, Vue Js, Material UI, Tailwind CSS, Firebase, Express Js, dan Sequelize.',
         'Memahami sql dan nosql dengan baik.',
         'Mampu bekerjasama dengan tim dan mampu mengintregasikan API'
       ]
       break
     case "contact-description":
-      return "Saya tertarik dengan peluang kerja frontend developer ataupun web developer, terutama proyek yang ambisius atau besar. Namun, jika Anda memiliki permintaan atau pertanyaan lain, silakan gunakan formulir ini."
+      return "Saya tertarik dengan peluang kerja frontend developer ataupun web developer, terutama proyek yang ambisius atau besar. Namun, jika Anda memiliki permintaan atau pertanyaan lain, silakan chat saya."
       break
+    case "Figma Saya":
+        return "Figma Saya"
+        break
   }
 }
 

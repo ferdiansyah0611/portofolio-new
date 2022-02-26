@@ -1,30 +1,56 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState, useEffect, useCallback} from 'react'
 import {
   Tooltip, ButtonGroup, Button,
   Dialog,
   DialogContent,
   Typography,
   DialogActions, useMediaQuery,
-  AppBar, Toolbar, Chip, Stack
+  AppBar, Toolbar, Chip, Stack,
+  Select, MenuItem
 } from '@mui/material'
 import {useTheme} from '@mui/material/styles'
-import Scroll from 'react-animate-on-scroll'
-import 'animate.css/animate.min.css'
+// import Scroll from 'react-animate-on-scroll'
+// import 'animate.css/animate.min.css'
 
 import languange from '../../resource/languange'
 
+var skill = [
+  'React Js',
+  'Vue Js',
+  'Express Js',
+  'Sass',
+  'Material UI',
+  'Tailwind CSS',
+  'Bootstrap',
+  'Firebase',
+  'Laravel 7',
+  'Codeigniter 4',
+  'Mongodb (Mongoose)'
+]
+
 const ProjectHash = ({lang, project, projectRef}) => {
-  const [countproject, setcountproject] = useState(3)
+  const [paginateproject, setpaginateproject] = useState(0)
+  const [nowproject, setnowproject] = useState(0)
   const [listproject, setlistproject] = useState([])
+  const [filter, setfilter] = useState('Choose Filter')
+
   useEffect(() => {
-    setlistproject(project.filter((d, i) => i <= countproject))
-  }, [countproject])
-  const moreproject = () => {
-    setcountproject(countproject + 4)
-  }
-  const lessproject = () => {
-    setcountproject(countproject - 4)
-  }
+    var data
+    if(!filter || filter == 'Choose Filter'){
+      data = project.filter((d, i) => nowproject > 0 ? i >= (4 * nowproject) :i <= 4)
+      setpaginateproject(Math.round(project.length / 4))
+      data = data.slice(0, 4)
+    }else{
+      data = project.filter(v => v.des.find((des) => des == filter))
+      setpaginateproject(Math.round(data.length / 4))
+      data = data.filter((d, i) => nowproject > 0 ? i >= (4 * nowproject) :i <= 4).slice(0, 4)
+    }
+    setlistproject(data)
+  }, [nowproject, filter])
+  const changepaginate = useCallback((i) => {
+    setnowproject(i)
+    window.scrollTo(0, projectRef.current.offsetTop - 100)
+  }, [projectRef.current])
 
   const [openproject, setopenproject] = useState({
     open: false, data: {}
@@ -38,6 +64,10 @@ const ProjectHash = ({lang, project, projectRef}) => {
     setopenproject({
       ...openproject, open: false
     })
+  }
+  const changefilter = (e) => {
+    setnowproject(0)
+    setfilter(e.target.value)
   }
   const theme = useTheme()
   const fullScreen = useMediaQuery(theme.breakpoints.down('md'))
@@ -81,24 +111,47 @@ const ProjectHash = ({lang, project, projectRef}) => {
           <Button onClick={closedproject}>close</Button>
         </DialogActions>
       </Dialog>
-      <section ref={projectRef} id="project" className="w-full mt-1 sm:mt-10 bg-white dark:bg-gray-800 shadow-md">
-        <h2 className="font-bold text-3xl text-center sm:text-left p-5 sm:mt-0 dark:text-white">{languange(lang, 'Projek Saya')}</h2>
-        <div className="grid gap-3 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 grid-flow-row dark:text-white p-5 pt-0">
+      <section ref={projectRef} id="project">
+        <div className="title">
+          <h2 className="flex-1">{languange(lang, 'Projek Saya')}</h2>
+          <Select className="w-full md:w-auto mt-2 md:mt-0" size="small" onChange={changefilter} value={filter}>
+            <MenuItem value="Choose Filter">Choose Filter</MenuItem>
+            {skill.map((v) => (
+              <MenuItem key={v} value={v}>{v}</MenuItem>
+            ))}
+          </Select>
+        </div>
+        <div className="grid-list">
         {
           listproject.map((data, key) => (
-            <Scroll key={key} delay={100} animateIn="fadeIn" animateOut="fadeOut">
+            <div key={data.name} data-aos="fade-up">
               <div className="sm:p-1 mt-1 mb-5 sm:mb-5">
-                <h5 className="font-bold text-1xl block p-4 dark:text-white text-center">{data.name}</h5>
-                <img width="100%" height="200px" src={data.img} className="w-full" alt="img-project" title="img-project"/>
-                <Button size="small" variant="contained" disableElevation sx={{borderRadius: 0}} fullWidth onClick={() => openedproject(data)}>detail</Button>
+                <h5>{data.name}</h5>
+                <img
+                  width="100%"
+                  height="200px"
+                  src={data.img}
+                  className="w-full"
+                  alt="img-project"
+                  title="img-project"
+                />
+                <Button
+                  size="small"
+                  variant="contained"
+                  disableElevation
+                  sx={{borderRadius: 0}}
+                  fullWidth
+                  onClick={() => openedproject(data)}
+                >detail</Button>
               </div>
-            </Scroll>
+            </div>
           ))
         }
         </div>
         <ButtonGroup size="small" disableElevation className="m-5" variant="contained" color="primary">
-          <Button onClick={() => countproject !== 3 ? lessproject(): false}>Load Less</Button>
-          <Button onClick={() => countproject <= project.length ? moreproject(): false}>Load more</Button>
+          {Array.from(new Array(paginateproject)).map((v, i) => (
+            <Button onClick={() => changepaginate(i)}>{i + 1}</Button>
+          ))}
         </ButtonGroup>
       </section>
     </>

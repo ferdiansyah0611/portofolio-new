@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState, useEffect, useCallback, useRef} from 'react'
 import {
   Button, ButtonGroup,
   Dialog, DialogContent, DialogActions, useMediaQuery
@@ -38,18 +38,28 @@ const DialogCertificate = ({open, onClose}) => {
 }
 
 const CertificateHash = ({lang}) => {
+  const refcertificate = useRef(null)
   const [countcert, setcountcert] = useState(3)
   const [opencert, setopencert] = useState(null)
+
+  const [paginatecert, setpaginatecert] = useState(0)
+  const [nowcert, setnowcert] = useState(0)
   const [listcert, setlistcert] = useState([])
   useEffect(() => {
     setlistcert(certificate.filter((d, i) => i <= countcert))
   }, [countcert])
-  const morecert = () => {
-    setcountcert(countcert + 4)
-  }
-  const lesscert = () => {
-    setcountcert(countcert - 4)
-  }
+
+  useEffect(() => {
+    var data = certificate.filter((d, i) => nowcert > 0 ? i >= (4 * nowcert) :i <= 4).slice(0, 4)
+    setlistcert(data)
+  }, [nowcert])
+  useEffect(() => {
+    setpaginatecert(certificate.length / 4)
+  }, [])
+  const changepaginate = useCallback((i) => {
+    setnowcert(i)
+    window.scrollTo(0, refcertificate.current.offsetTop - 100)
+  }, [refcertificate.current])
 
   return(
     <>
@@ -57,20 +67,19 @@ const CertificateHash = ({lang}) => {
         open={opencert}
         onClose={() => setopencert(null)}
       />
-      <section id="certificate" className="w-full mt-1 sm:mt-10 bg-white dark:bg-gray-800 shadow-md">
-        <h2 className="font-bold text-3xl text-center sm:text-left p-5 sm:mt-0 dark:text-white">{languange(lang, 'Sertifikat Saya')}</h2>
-        <div className="grid gap-3 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 grid-flow-row dark:text-white p-5 pt-0">
+      <section ref={refcertificate} id="certificate">
+        <h2>{languange(lang, 'Sertifikat Saya')}</h2>
+        <div className="grid-list">
         {
           listcert.map((data, key) => (
-            <div key={key} className="sm:p-1 mt-1 mb-5 sm:mb-5">
-              <img onClick={() => setopencert(data)} width="300px" height={key === 0 ? '320px': '250px'} src={data} className="w-full" alt="img-project" title="img-certificate"/>
-            </div>
+              <img data-aos="fade-up" onClick={() => setopencert(data)} width="300px" height={key === 0 ? '320px': '250px'} src={data} className="w-full" alt="img-cert" title="img-certificate"/>
           ))
         }
         </div>
         <ButtonGroup size="small" disableElevation className="m-5" variant="contained" color="primary">
-          <Button onClick={() => countcert !== 3 ? lesscert(): false}>Load Less</Button>
-          <Button onClick={() => countcert <= listcert.length ? morecert(): false}>Load more</Button>
+          {Array.from(new Array(paginatecert)).map((v, i) => (
+            <Button onClick={() => changepaginate(i)}>{i + 1}</Button>
+          ))}
         </ButtonGroup>
       </section>
     </>

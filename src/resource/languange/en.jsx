@@ -81,13 +81,16 @@ const en = (text) => {
 	    case "list-keahlian":
 	    	return[
 	        'Able to use HTML, CSS, SASS, Javascript, and Typescript.',
-	        'Can use javascript and css libraries well. Such as React Js, Vue Js, Material UI, Tailwind CSS, Firebase, Express Js, Sequelize, and Next JS.',
+	        'Can use javascript and css libraries well. Such as React Js, Vue Js, Material UI, Tailwind CSS, Firebase, Express Js, and Sequelize.',
 	        'Good understanding of sql and nosql.',
 	        'Able to work with a team and able to integrate API'
 	      ]
 	      break
 	    case "contact-description":
-	    	return "I am interested in frontend developer or web developer job opportunities, especially ambitious or large projects. However, if you have any other requests or questions, please use this form."
+	    	return "I am interested in frontend developer or web developer job opportunities, especially ambitious or large projects. However, if you have any other requests or questions, please chat me."
+	    	break
+	    case "Figma Saya":
+	    	return "My Figma"
 	    	break
 	}
 }

@@ -3,7 +3,7 @@ import React, {
   useRef as ref,
   useEffect as effect,
 } from "react"
-import { gsap } from "gsap"
+// import { gsap } from "gsap"
 
 import languange from '../resource/languange'
 
@@ -12,13 +12,13 @@ function WriterIntro(props){
   const [data, setdata] = state('')
   // gsap
   const ex = ref(null)
-  effect(() => {
-    gsap.from(ex.current, {
-      duration: 1,
-      ease: "expo.out",
-      x: 100
-    });
-  }, []);
+  // effect(() => {
+  //   gsap.from(ex.current, {
+  //     duration: 1,
+  //     ease: "expo.out",
+  //     x: 100
+  //   });
+  // }, []);
   // typewriter
   effect(() => {
     let str = languange(props.lang, 'intro-text'),
@@ -46,7 +46,7 @@ function WriterIntro(props){
     return () => clearInterval(int)
   }, [props.lang])
   return(
-    <h2 ref={ex} className="font-bold text-3xl w-4/5 mb-2"><span className="writer">{data}</span></h2>
+    <h2 ref={ex} className="font-bold text-3xl text-left w-4/5 mb-2"><span className="writer">{data}</span></h2>
   )
 }
 

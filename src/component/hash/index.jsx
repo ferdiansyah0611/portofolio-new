@@ -4,6 +4,7 @@ import IntroductionHash from './IntroductionHash'
 import ProjectHash from './ProjectHash'
 import StudyHash from './StudyHash'
 import ContactHash from './ContactHash'
+import FigmaHash from './FigmaHash'
 
 export{
 	AboutHash,
@@ -11,5 +12,6 @@ export{
 	IntroductionHash,
 	ProjectHash,
 	StudyHash,
-	ContactHash
+	ContactHash,
+	FigmaHash
 }

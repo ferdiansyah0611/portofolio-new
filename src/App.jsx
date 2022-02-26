@@ -1,11 +1,12 @@
 import React from 'react'
 import { ThemeProvider, CssBaseline } from '@mui/material'
 import { createTheme } from '@mui/material/styles'
-import { purple, red, blue, green } from '@mui/material/colors'
+import { purple, red, blue, green, grey } from '@mui/material/colors'
 
 import Home from './pages/home'
 
 import project from './context/project'
+import figma from './context/figma'
 import Context from './context'
 
 var theme = createTheme({
@@ -23,6 +24,14 @@ var theme = createTheme({
       main: green[500],
       contrastText: 'white'
     },
+    linkedin: {
+      main: blue[300],
+      contrastText: 'white'
+    },
+    github: {
+      main: grey[500],
+      contrastText: 'white'
+    },
   }
 })
 
@@ -31,6 +40,7 @@ class App extends React.Component{
     super(props)
     this.state = {
       project: project,
+      figma: figma,
       languange: 'en',
       app: () => this
     }
