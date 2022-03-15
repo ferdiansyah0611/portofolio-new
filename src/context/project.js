@@ -63,7 +63,7 @@ const project = [
     img: '/si-school-img.png',
     github: 'https://github.com/ferdiansyah0611/system_information_school',
     web: 'http://system-school-laravel.herokuapp.com',
-    des: ['Laravel 7', 'Xoric Template', 'Vue Js', 'Bootstrap'],
+    des: ['Laravel 7', 'Xoric Template', 'Vue Js', 'Bootstrap', 'Mysql'],
     description: {
       en: `The School Information System is a website that is useful for managing school-based data such as student data, teachers, classes, subjects, schools and can import/export excel data.`,
       id: `System Information School adalah website yang berguna untuk management data-data berdasarkan sekolah seperti data pelajar, guru, kelas, mata pelajaran, sekolah dan dapat import/export data excel.`
@@ -83,14 +83,13 @@ const project = [
   {
     name: 'Blog Multi User',
     img: '/blog-multiuser-img.png',
-    github: 'https://github.com/ferdiansyah0611/project-blog-multi-user',
+    github: 'https://github.com/ferdiansyah0611/blog-multi-user',
     web: '#',
-    des: ['Codeigniter 4', 'Materialize CSS'],
+    des: ['Codeigniter 4', 'Materialize CSS', 'Mysql'],
     description: {
       en: 'Multi User Blog is a website with a feature to create a blog for all registered users.',
       id: 'Blog Multi User adalah website dengan fitur membuat sebuah blog untuk semua pengguna yang telah registrasi.'
     },
-    private: true
   },
   {
     name: 'Windows Clone',
@@ -102,6 +101,30 @@ const project = [
       en: 'Windows Clone is a web designed as closely as possible to the Windows 10 operating system.',
       id: 'Windows Clone adalah web yang didesain semirip mungkin dengan sistem operasi windows 10.'
     }
+  },
+  {
+    name: 'Inventory Management',
+    img: '/inventory-img.png',
+    github: '#',
+    web: '#',
+    des: ['Codeigniter 4', 'Argon', 'Mysql'],
+    description: {
+      en: 'Inventory management is a website for inventory management such as product, order, customer, user, category, brand, monthly or yearly daily reports, and income.',
+      id: 'Inventory management adalah website untuk management inventory seperti product, order, customer, user, category, brand, laporan harian bulanan atau tahun, dan penghasilan.'
+    },
+    private: true
+  },
+  {
+    name: 'Library Management',
+    img: '/library-img.png',
+    github: '#',
+    web: '#',
+    des: ['Codeigniter 4', 'Argon', 'Mysql'],
+    description: {
+      en: 'Library management is a website for the management of library books such as books, e-books, borrow books, and users.',
+      id: 'Library management adalah website untuk manajemen buku perpustakaan seperti book, e-book, borrow book, dan user.'
+    },
+    private: true
   },
   // {
   //   name: 'Ecommerce',

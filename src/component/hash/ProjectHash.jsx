@@ -22,9 +22,10 @@ var skill = [
   'Material UI',
   'Tailwind CSS',
   'Bootstrap',
-  'Firebase',
   'Laravel 7',
   'Codeigniter 4',
+  'Firebase',
+  'Mysql',
   'Mongodb (Mongoose)'
 ]
 
