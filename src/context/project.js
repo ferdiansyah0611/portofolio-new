@@ -4,7 +4,7 @@ const project = [
     img: '/tech-img.png',
     github: 'https://github.com/ferdiansyah0611/tech-messenger',
     web: 'https://tech-messenger-0611.web.app',
-    des: ['React Js', 'Material UI', 'Tailwind CSS', 'Firebase', 'Express Js', 'Socket.io'],
+    des: ['React Js', 'Material UI', 'Tailwind CSS', 'Firebase', 'Express Js', 'Mongodb (Mongoose)', 'Peer Js (Server & Client)'],
     description: {
       en: 'Tech Messenger is a web chat application with several features such as Personal Chat, Group Chat, Video Call, Story, Contact, and Marketplace.',
       id: 'Tech Messenger adalah web apps chatting dengan memiliki beberapa fitur seperti Personal Chat, Group Chat, Video Call, Story, Contact, dan Marketplace.'
