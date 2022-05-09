@@ -9,31 +9,39 @@ import project from './context/project'
 import figma from './context/figma'
 import Context from './context'
 
-var theme = createTheme({
-  palette: {
-    primary: {
-      main: '#2563eb'
-    },
-    secondary: {
-      main: red[500]
-    },
-    blue: {
-      main: blue[600]
-    },
-    green: {
-      main: green[500],
-      contrastText: 'white'
-    },
-    linkedin: {
-      main: blue[300],
-      contrastText: 'white'
-    },
-    github: {
-      main: grey[500],
-      contrastText: 'white'
-    },
-  }
-})
+const ConfigTheme = (props) => {
+  const theme = React.useMemo(() => createTheme({
+    palette: {
+      primary: {
+        main: '#2563eb'
+      },
+      secondary: {
+        main: red[500]
+      },
+      blue: {
+        main: blue[600]
+      },
+      green: {
+        main: green[500],
+        contrastText: 'white'
+      },
+      linkedin: {
+        main: blue[300],
+        contrastText: 'white'
+      },
+      github: {
+        main: grey[500],
+        contrastText: 'white'
+      },
+    }
+  }), [])
+  return(
+    <ThemeProvider theme={theme}>
+      <CssBaseline/>
+      {props.children}
+    </ThemeProvider>
+  )
+}
 
 class App extends React.Component{
   constructor(props){
@@ -48,20 +56,11 @@ class App extends React.Component{
   render(){
     return(
       <div className="App">
-        <ThemeProvider theme={theme}>
-          <CssBaseline/>
+        <ConfigTheme>
           <Context.Provider value={this.state}>
-            <Context.Consumer>
-              {
-                ctx => (
-                  <React.Fragment>
-                    <Home ctx={ctx} />
-                  </React.Fragment>
-                )
-              }
-            </Context.Consumer>
+            <Home />
           </Context.Provider>
-        </ThemeProvider>
+        </ConfigTheme>
       </div>
     )
   }

@@ -1,27 +1,17 @@
 import React, {
-  useState as state,
-  useRef as ref,
-  useEffect as effect,
+  useState,
+  useEffect,
 } from "react"
-// import { gsap } from "gsap"
+import useLanguange from '@hook/useLanguange'
+import context from '../context'
 
-import languange from '../resource/languange'
-
-function WriterIntro(props){
-  // state
-  const [data, setdata] = state('')
-  // gsap
-  const ex = ref(null)
-  // effect(() => {
-  //   gsap.from(ex.current, {
-  //     duration: 1,
-  //     ease: "expo.out",
-  //     x: 100
-  //   });
-  // }, []);
+function WriterIntro(){
+  const ctx = React.useContext(context)
+  const [data, setdata] = useState('')
+  const languange = useLanguange()
   // typewriter
-  effect(() => {
-    let str = languange(props.lang, 'intro-text'),
+  useEffect(() => {
+    let str = languange('intro-text'),
     last    = 0,
     isIntro2 = false,
     int     = setInterval(() => {
@@ -31,11 +21,11 @@ function WriterIntro(props){
             setTimeout(() => {
               last = 0
               isIntro2 = false
-              str = languange(props.lang, 'intro-text')
+              str = languange('intro-text')
             }, 2000)
           }else{
-            last = props.lang === "en" ? 36: 44
-            str = languange(props.lang, 'intro-text-2')
+            last = ctx.languange === "en" ? 36: 44
+            str = languange('intro-text-2')
           }
           isIntro2 = true
         }, 3000)
@@ -44,9 +34,9 @@ function WriterIntro(props){
       setdata(str.slice(0, last))
     }, 200)
     return () => clearInterval(int)
-  }, [props.lang])
+  }, [languange, ctx.languange])
   return(
-    <h2 ref={ex} className="font-bold text-3xl text-left w-4/5 mb-2"><span className="writer">{data}</span></h2>
+    <h2 className="font-bold text-3xl text-left w-4/5 mb-2"><span className="writer">{data}</span></h2>
   )
 }
 

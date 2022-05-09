@@ -80,10 +80,12 @@ const en = (text) => {
     		break
 	    case "list-keahlian":
 	    	return[
-	        'Able to use HTML, CSS, SASS, Javascript, and Typescript.',
-	        'Can use javascript and css libraries well. Such as React Js, Vue Js, Material UI, Tailwind CSS, Firebase, Express Js, and Sequelize.',
-	        'Good understanding of sql and nosql.',
-	        'Able to work with a team and able to integrate API'
+	        'Able to use HTML, CSS, SASS, Javascript, and Typescript',
+	        'Can use javascript and css libraries well. Such as React Js, Redux, Vue Js, Material UI, Tailwind CSS, Firebase, Express Js, mongoose and Sequelize',
+	        'Good understanding of sql and nosql',
+	        'Able to work with a team and able to integrate API',
+	        'Can make unit testing with mocha and supertest',
+	        'Can use figma to make website design prototypes'
 	      ]
 	      break
 	    case "contact-description":

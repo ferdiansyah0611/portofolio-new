@@ -9,25 +9,50 @@ import Refresh from '@mui/icons-material/Refresh'
 import Translate from '@mui/icons-material/Translate'
 
 import DialogLanguange from './DialogLanguange'
+import useLanguange from '@hook/useLanguange'
 
-import languange from '../resource/languange'
-
-const HeadingMenu = ({lang, changeHash, navRef, handlemenu, statusMenu, setlang}) => {
+const HeadingMenu = ({ navRef, statusMenu, setstatusMenu }) => {
+  const languange = useLanguange()
   const [openDialogLanguange, setopenDialogLanguange] = React.useState(false)
-  var toTop = (e) => {
+  const toTop = React.useCallback((e) => {
     e.preventDefault()
     window.scrollTo(0, 0)
-  }
+  }, [])
+  const changeHash = React.useCallback((e, to) => {
+    e.preventDefault()
+    if (!to) {
+      window.scrollTo(0, 0)
+    } else {
+      window.scrollTo(0, document.querySelector(`#${to}`).offsetTop - 80)
+    }
+  }, [])
+  const handlemenu = React.useCallback((e) => {
+    const container = document.querySelector('#container-menu');
+    // style container menu
+    e.preventDefault()
+    // opened
+    if (statusMenu) {
+      setstatusMenu(false)
+      container.classList.add('ml-300-')
+      document.body.classList.remove('overflow-hidden')
+      return true;
+    } else {
+      setstatusMenu(true)
+      container.classList.remove('ml-300-')
+      document.body.classList.add('overflow-hidden')
+      return true;
+    }
+  }, [statusMenu])
   return(
     <>
-      <DialogLanguange lang={lang} change={(e) => setlang(e.target.value)} open={openDialogLanguange} close={() => setopenDialogLanguange(false)} />
+      <DialogLanguange open={openDialogLanguange} close={() => setopenDialogLanguange(false)} />
       <div id="container-menu" className="ml-300- w-300">
         <div id="header-menu">
           <h5><br/>{"{'Ferdiansyah': 'Developer'}"}</h5>
         </div>
         <ul className="border-b dark:border-gray-400">
         {
-          languange(lang, 'arrayMenu').map((menu, key) => (
+          languange('arrayMenu').map((menu, key) => (
             <li key={key} className="flex w-full">
             {
               !menu.link ?
@@ -49,7 +74,7 @@ const HeadingMenu = ({lang, changeHash, navRef, handlemenu, statusMenu, setlang}
       <nav ref={navRef} className="nav-mobile off-scroll">
         <div className="hidden sm:flex ml-3 mr-3">
         {
-          languange(lang, 'arrayMenu').map((menu, key) => (
+          languange('arrayMenu').map((menu, key) => (
             <React.Fragment key={key}>
             {
               !menu.link ?

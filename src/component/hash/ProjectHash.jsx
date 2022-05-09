@@ -1,18 +1,23 @@
-import React, {useState, useEffect, useCallback} from 'react'
+import React, { useState, useEffect, useCallback } from 'react'
 import {
-  Tooltip, ButtonGroup, Button,
+  Tooltip,
+  ButtonGroup,
+  Button,
   Dialog,
   DialogContent,
   Typography,
-  DialogActions, useMediaQuery,
-  AppBar, Toolbar, Chip, Stack,
-  Select, MenuItem
+  DialogActions,
+  useMediaQuery,
+  AppBar,
+  Toolbar,
+  Chip,
+  Stack,
+  Select,
+  MenuItem
 } from '@mui/material'
-import {useTheme} from '@mui/material/styles'
-// import Scroll from 'react-animate-on-scroll'
-// import 'animate.css/animate.min.css'
-
-import languange from '../../resource/languange'
+import { useTheme } from '@mui/material/styles'
+import useLanguange from '@hook/useLanguange'
+import context from '../../context'
 
 var skill = [
   'React Js',
@@ -29,7 +34,10 @@ var skill = [
   'Mongodb (Mongoose)'
 ]
 
-const ProjectHash = ({lang, project, projectRef}) => {
+const ProjectHash = ({projectRef}) => {
+  const languange = useLanguange()
+  const ctx = React.useContext(context)
+  const project = React.useMemo(() => ctx.project, [ctx.project])
   const [paginateproject, setpaginateproject] = useState(0)
   const [nowproject, setnowproject] = useState(0)
   const [listproject, setlistproject] = useState([])
@@ -87,13 +95,12 @@ const ProjectHash = ({lang, project, projectRef}) => {
             <img width="100%" src={openproject.data.img} className="w-full mb-4" alt="img-project" title="img-project"/>
             <Typography variant="h6" paragraph>Technology</Typography>
             <Stack direction={{ xs: 'column', sm: 'row', overflow: 'auto' }} spacing={1}>
-              
               {
                 openproject.data?.des?.map((d,i) => <Chip variant="outlined" key={i} label={d} />)
               }
             </Stack>
             <Typography sx={{mt: 2}} variant="h6" paragraph>Description</Typography>
-            <Typography variant="p" paragraph>{openproject.data.description[lang]}</Typography>
+            <Typography variant="p" paragraph>{openproject.data.description[ctx.languange]}</Typography>
             <Typography variant="h6" paragraph>Link & Repository</Typography>
             <Tooltip title={"Go " + (openproject.data.gitlab ? openproject.data.gitlab : openproject.data.github)} placement="top">
               <Button size="small" variant="contained" onClick={() => (openproject.data.gitlab ? openproject.data.gitlab : openproject.data.github) !== '#' ? window.open(openproject.data.gitlab ? openproject.data.gitlab : openproject.data.github): false}>
@@ -114,7 +121,7 @@ const ProjectHash = ({lang, project, projectRef}) => {
       </Dialog>
       <section ref={projectRef} id="project">
         <div className="title">
-          <h2 className="flex-1">{languange(lang, 'Projek Saya')}</h2>
+          <h2 className="flex-1">{languange('Projek Saya')}</h2>
           <Select className="w-full md:w-auto mt-2 md:mt-0" size="small" onChange={changefilter} value={filter}>
             <MenuItem value="Choose Filter">Choose Filter</MenuItem>
             {skill.map((v) => (
@@ -151,7 +158,7 @@ const ProjectHash = ({lang, project, projectRef}) => {
         </div>
         <ButtonGroup size="small" disableElevation className="m-5" variant="contained" color="primary">
           {Array.from(new Array(paginateproject)).map((v, i) => (
-            <Button onClick={() => changepaginate(i)}>{i + 1}</Button>
+            <Button key={i} onClick={() => changepaginate(i)}>{i + 1}</Button>
           ))}
         </ButtonGroup>
       </section>
